@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="logo.png" />
+				</div>
+				<div class="col-sm-5">
+					<h1>Chitose</h1>
+					<h2>A SMS LISP Compiler</h2>
+					<h3>By Hubert (Sathaporn) Hu</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="screenshot.png" style="float:left; margin-right:20px;"/>
+				<h1>About Chitose</h1>
+				<p>Chitose is aiming to become an SMS LISP compiler. Working with her is simple,
+				simply text her a LISP and she would return an output for you. Since she's relatively new, she still
+				can't do much. Right now, she can handle simple arithmetic and if-statement. She can also perform
+				seq as well. The provided screenshot should tell you what she's currently capable of. She still
+				lacks abilities in many areas such as declaring variables or dealing with lists.</p>
+				
+				<p>Now, you may think that it's a waste of time by trying to create an SMS LISP compiler.
+				If SMS LISP compiling is all Chitose does, then yes, you're right. However, I aim to augment her
+				with other abilities such as obtaining weather data. With these new ability, she can become
+				a service provider for any geek with a cellphone. The cellphone doesn't even need to be that great,
+				it merely needs to be able to send and receive SMS.</p>
+				
+				<p>You may also be able to involve Chitose in your app as well. For example, you can ask Chitose for
+				weather data in your weather app when normal Internet access is unavailable. You just text her
+				something - in LISP of course!</p>
+				
+				<p>I don't know what would actually happen in the future though. Que Sera Sera.</p>
+			</div>
+			
+			<div class="col-sm-12">
+				<h1>What's up with the name, and why it's a she</h1>
+				<p>I generally name my software after small cities around the world (Like Microsoft who used to
+				name software after large cities in the past). Chitose is a city in Hokkaido, so that's reason
+				enough for me to choose.</p>
+				
+				<p>Chitose is also a Japanese female name. So this app is a she. And by acting as if Chitose is a
+				person, I am trying to use psychology to make you feel attached to her somehow.</p>
+			</div>
+			
+			<div class="col-sm-12">
+				<h1>I want to ask Chitose something...</h1>
+				<p>Unfortunately, Chitose is still very new, so it's too early for her to be tested. It doesn't help
+				either that Chitose is running on Twilio trial number. This means that I would need to verify your
+				telephone number before you can ask her anything. She's not a public person right now...</p>
+			</div>
+			
+			<div class="col-sm-12">
+				<h1>Technical stuffs and open sourcing</h1>
+				<p>Chitose is a Sinatra rack app. This means that she's written with Ruby. She's hosted on Heroku.
+				She's also using Twilio for telephony abilities. Unfortunately, as of now, Chitose is closed-source. 
+				Unlike my previous efforts, I am not so generous this time. However, I can tell you that she's just
+				a simple S-Syntax parser with an incomplete interpreter.</p>
+			</div>
+		</div>
+	</div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
